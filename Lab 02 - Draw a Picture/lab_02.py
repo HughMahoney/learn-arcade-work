@@ -23,6 +23,16 @@ arcade.draw_lrtb_rectangle_filled(510, 530, 600, 0, (0,0,0))
 arcade.draw_lrtb_rectangle_filled(560, 580, 600, 0, (0,0,0))
 arcade.draw_lrtb_rectangle_filled(610, 630, 600, 0, (0,0,0))
 
+#DRAW BALLS ON BENCH
+
+#Soccer Ball
+arcade.draw_circle_filled(250, 220, 50, arcade.color.WHITE_SMOKE)
+#Tennis Ball
+arcade.draw_circle_filled(360, 190, 20, arcade.color.GREEN_YELLOW)
+#Volleyball
+arcade.draw_circle_filled(470, 210, 40, arcade.color.YELLOW)
+
+
 #DRAW PLATFORM AND BENCH
 arcade.draw_lrtb_rectangle_filled(110, 690, 60, 0, (255, 255, 255))
 arcade.draw_lrtb_rectangle_filled(200, 600, 170, 60, (200, 200, 200))
