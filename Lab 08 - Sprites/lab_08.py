@@ -88,6 +88,8 @@ class MyGame(arcade.Window):
             self.player_sprite.center_x = x
             self.player_sprite.center_y = y
 
+            
+
     def update(self, delta_time):
         """ Movement and game logic """
 
@@ -100,6 +102,7 @@ class MyGame(arcade.Window):
         coins_hit_list = arcade.check_for_collision_with_list(self.player_sprite,
                                                               self.coin_list)
         bad_coins_hit_list = arcade.check_for_collision_with_list(self.player_sprite, self.bad_coin_list)
+        
                                                         
 
         # Loop through each colliding sprite, remove it, and add to the score.
